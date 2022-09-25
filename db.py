@@ -26,8 +26,3 @@ class Database:
 
     def __del__(self):
         self.conn.close()
-
-# dbase = Database('contacts.db')
-# dbase.insert("John", "Doe", "+254703959541", "john@gmail.com")
-# dbase.insert("Jane", "Does", "+254703955441", "jane@gmail.com")
-# dbase.insert("Robinson", "Crusoe", "+254703955441", "robinsoncrusoe@gmail.com")
